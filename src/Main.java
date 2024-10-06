@@ -27,7 +27,7 @@ public class Main {
         myNum = 11; // Si pones un nuevo valor se sobreescribe
                 System.out.println(myNum);
          */
-
+/*
         String nombre = "Dani ";
         String apellido = "Tato";
         String nombreCompleto = nombre + apellido;
@@ -37,10 +37,20 @@ public class Main {
 
         int x = 5, y = 6, z = 50;
         System.out.println(x + y + z);
+*/
+        // informacion de un estudiante
+        String studentName = "Daniel Tato";
+        int studentID = 15;
+        int studentAge = 27;
+        float studentFee = 75.25f;
+        char studentGrade = 'B';
 
-
-
-
+// Print variables
+        System.out.println("Student name: " + studentName);
+        System.out.println("Student id: " + studentID);
+        System.out.println("Student age: " + studentAge);
+        System.out.println("Student fee: " + studentFee);
+        System.out.println("Student grade: " + studentGrade);
 
 
 
