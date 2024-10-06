@@ -35,9 +35,8 @@ public class Main {
         System.out.println(nombre + apellido);
         System.out.println(nombreCompleto);
 
-        int x = 5;
-        int y = 6;
-        System.out.println(x + y);
+        int x = 5, y = 6, z = 50;
+        System.out.println(x + y + z);
 
 
 
