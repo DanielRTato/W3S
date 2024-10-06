@@ -44,13 +44,18 @@ public class Main {
         int studentAge = 27;
         float studentFee = 75.25f;
         char studentGrade = 'B';
-
-// Print variables
         System.out.println("Student name: " + studentName);
         System.out.println("Student id: " + studentID);
         System.out.println("Student age: " + studentAge);
         System.out.println("Student fee: " + studentFee);
         System.out.println("Student grade: " + studentGrade);
+
+        // Calcular area rectangulo
+        int longitud = 4;
+        int altura = 6;
+        int area;
+        area = longitud * altura;
+        System.out.println("El area del rectangulo es: " + area);
 
 
 
