@@ -62,7 +62,8 @@ public class Main {
         int objetos = 50;
         float precioObjeto = 9.99f;
         float precioTotal = objetos * precioObjeto ;
-        System.out.println("El coste todal es: " + precioTotal);
+        char moneda = '€';
+        System.out.println("El coste todal es: " + precioTotal + moneda);
 
 
 
