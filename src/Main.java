@@ -51,12 +51,18 @@ public class Main {
         System.out.println("Student grade: " + studentGrade);
 
         // Calcular area rectangulo
+
         int longitud = 4;
         int altura = 6;
         int area;
         area = longitud * altura;
         System.out.println("El area del rectangulo es: " + area);
 
+
+        int objetos = 50;
+        float precioObjeto = 9.99f;
+        float precioTotal = objetos * precioObjeto ;
+        System.out.println("El coste todal es: " + precioTotal);
 
 
 
